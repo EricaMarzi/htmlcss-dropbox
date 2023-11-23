@@ -317,8 +317,8 @@ section.operation {
 }
 
 .card {
-    height: 470px;
-    border: 1px solid black;
+    height: 550px;
+    
 
     padding: 1 rem;
     flex-basis: calc(100% / 3);
@@ -326,8 +326,6 @@ section.operation {
 
 .card-top {
     height: 50%;
-
-    border-bottom: 1px solid wheat;
 }
 
 /*riempimento sezione operazioni*/
@@ -353,6 +351,18 @@ section.operation {
 }
 .security-img {
     background-image: url(img/business-feature-security.png);
+}
+
+.card-bottom {
+    padding-right: 50px; /*! ci vuole il gap! ricordati di cambiarlo lunedì*/
+}
+
+.card-bottom h2 {
+    font-size: 25px;
+}
+
+.card-bottom p {
+    font-size: 15px;
 }
 
 /** Sezione Find more */
