@@ -10,6 +10,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 40px 0;
+}
+
 .flex {
     display: flex;
 }
@@ -20,7 +29,7 @@ body {
 }
 
 .container-main {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -80,3 +89,32 @@ header {
     height: 480px;
 }
 
+
+/*! MAIN */
+
+/** Sezione Plan */
+
+main {
+    padding-top: 100px
+}
+
+section.fatturazione {
+    height: 1000px;
+    background-color: cadetblue;
+}
+
+ul.billing {
+    gap: 20px;
+}
+
+.plan-container {
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
+
+.plan {
+    margin: 1rem;
+    width: calc(100% / 3 -2rem);
+
+    border: 1px solid white;
+}
