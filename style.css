@@ -121,6 +121,10 @@ ul.billing {
 
 /** Sezione Partner */
 
+section.operation {
+    margin-bottom: 200px;
+}
+
 .partner.flex {
     margin: 100px 0;
 
@@ -157,10 +161,15 @@ ul.billing {
     flex-basis: calc(100% / 3);
 }
 
-
-
 .card-top {
     height: 50%;
 
     border-bottom: 1px solid wheat;
+}
+
+
+/** Sezione Find more */
+
+h2.title-small {
+    font-size: 30px;
 }
