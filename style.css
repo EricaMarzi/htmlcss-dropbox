@@ -47,6 +47,15 @@ a.blue-btn {
     color: white;
 }
 
+button.white-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .text-gray {
     color: gray;
 }
@@ -180,7 +189,7 @@ ul.billing {
 }
 
 /*riempimento plan*/
-/*TODO centralizza quel padding 30px*/
+/*TODO centralizza quel padding-left 30px e font-size 14px*/
 .piano {
     font-size: 14px;
     text-align: center;
@@ -272,14 +281,10 @@ section.operation {
 
 .partner.flex {
     margin: 100px 0;
-
-    background-color: lightseagreen;
 }
 
 .img-left {
     width: 60%;
-
-    border: 1px solid #d0d0d3;
 }
 
 .partner-img {
@@ -288,6 +293,20 @@ section.operation {
 
 .text-right {
     width: 40%;
+}
+
+/*riempimento sezione partner*/
+
+.text-right {
+    padding: 50px 40px;
+}
+
+.text-right h2 {
+    font-size: 26px;
+}
+
+.text-right p {
+    margin-bottom: 35px;
 }
 
 
