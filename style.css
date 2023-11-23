@@ -317,7 +317,6 @@ section.operation {
 }
 
 .card {
-    background-color: darkolivegreen;
     height: 470px;
     border: 1px solid black;
 
@@ -331,6 +330,30 @@ section.operation {
     border-bottom: 1px solid wheat;
 }
 
+/*riempimento sezione operazioni*/
+.card-top {
+    background-size: cover;
+    background-position: center;
+}
+
+.tools-img {
+    background-image: url(img/business-feature-switching-tools.png);
+} 
+.files-img {
+    background-image: url(img/business-feature-send-files-it.png);
+}
+.coordinate-img {
+    background-image: url(img/business-feature-coordinate-it.png);
+}
+.integration-img {
+    background-image: url(img/business-feature-integrations-it.png);
+}
+.multi-device-img {
+    background-image: url(img/business-feature-multi-device.png);
+}
+.security-img {
+    background-image: url(img/business-feature-security.png);
+}
 
 /** Sezione Find more */
 
