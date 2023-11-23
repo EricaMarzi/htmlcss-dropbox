@@ -4,3 +4,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/** Utility*/
+.flex {
+    display: flex;
+}
+
+/*! HEADER */
+
+header {
+    border: 1px solid black;
+
+    justify-content: space-between;
+}
+
+.header {
+    height: 80px;
+    min-width: 30%;
+
+    border: 1px solid red;
+}
