@@ -6,15 +6,34 @@
 }
 
 /** Utility*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .flex {
     display: flex;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container-main {
+    width: 800px;
+    margin: 0 auto;
 }
 
 /*! HEADER */
 
 header {
     border: 1px solid black;
+}
 
+.top-header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -24,3 +43,40 @@ header {
 
     border: 1px solid red;
 }
+
+/** Jumbotron */
+
+.bottom-header {
+    padding-top: 80px;
+    background-color: #b4d0e7;
+    height: 820px;
+}
+
+.jumbotron {
+    background-color:coral;
+    height: 740px;
+    padding-top: 80px;
+}
+
+
+
+.title-jumbo h1 {
+    font-size: 80px;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+
+.left-jumbo {
+    width: 30%;
+    height: 402px;
+    background-color: burlywood;
+}
+
+.right-jumbo {
+    width: 70%;
+}
+
+.right-jumbo img {
+    height: 480px;
+}
+
