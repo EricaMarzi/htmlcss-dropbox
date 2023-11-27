@@ -21,7 +21,6 @@ header a {
 }
 
 
-
 h2 {
     font-size: 40px;
     padding: 40px 0;
@@ -475,4 +474,33 @@ section.sponsor {
     border-color: transparent;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+
+/** Sezione Domande Frequenti*/
+
+section#frequent-questions {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#frequent-questions h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+p.question {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 40px 0;
+}
+
+.fa-solid.fa-angle-down {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+   
 }
