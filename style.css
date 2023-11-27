@@ -63,7 +63,6 @@ a.white-btn {
 header a {
     text-decoration: none;
     color: black;
-    line-height: 80px;
 }
 
 .top-header {
@@ -92,6 +91,7 @@ header a {
 }
 
 header li {
+    line-height: 80px;
     border-bottom: 2px solid transparent
 }
 
