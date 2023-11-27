@@ -15,12 +15,6 @@ ul {
     list-style-type: none;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-}
-
-
 h2 {
     font-size: 40px;
     padding: 40px 0;
@@ -41,6 +35,7 @@ h2 {
 }
 
 a.blue-btn {
+    text-decoration: none;
     background-color: #0061ff;
     padding: 10px 20px;
     color: white;
@@ -52,7 +47,6 @@ a.white-btn {
     color: black;
     padding: 10px 20px;
     border: 1px solid black;
-    font-size: 16px;
 }
 
 .text-gray {
@@ -60,7 +54,12 @@ a.white-btn {
 }
 
 
+
 /*! HEADER */
+header a {
+    text-decoration: none;
+    color: black;
+}
 
 .top-header {
     background-color: white;
@@ -69,7 +68,7 @@ a.white-btn {
     width: 100%;
     justify-content: space-between;
     padding-left: 20px;
-    box-shadow: 0 2px 5px #888888;
+    box-shadow: 0 2px 5px lightgrey;
 }
 
 .header {
@@ -78,13 +77,13 @@ a.white-btn {
     align-items: center;
 }
 
+#logo {
+    height: 25px;
+}
+
 .header-list {
     width: 100%;
     justify-content: space-around;
-}
-
-#logo {
-    height: 25px;
 }
 
 
@@ -143,14 +142,15 @@ main {
 
 /** Sezione Plan */
 
-ul.billing {
+
+.fatturazione {
     gap: 20px;
-    padding: 20px 0;
 }
 
-.billing.flex > li {
-    line-height: 20px;
-    vertical-align: middle; /*! da fixare allineamento verticale*/
+.billing {
+    align-items: center;
+    padding: 20px 0;
+    gap: 5px;
 }
 
 #check {
@@ -169,10 +169,12 @@ ul.billing {
     display: inline-block;
 }
 
+/* Piani */
 .plan-container {
     flex-basis: 1000px;
     margin: 0 -25px;
     flex-wrap: wrap;
+    font-size: 14px;
 }
 
 .plan {
@@ -188,10 +190,12 @@ ul.billing {
     height: 250px;
 }
 
-/*riempimento plan*/
-/*TODO centralizza quel padding-left 30px e font-size 14px*/
+.plan-padding {
+    padding: 0 30px;
+}
+
+/*riempimento piani*/
 .piano {
-    font-size: 14px;
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #d0d0d3;
@@ -200,21 +204,15 @@ ul.billing {
 
 .plan  h3 {
     font-size: 23px;
-    padding: 20px 30px;
-}
-
-.plan > p {
-    font-size: 14px;
+    padding: 20px 0;
 }
 
 .price {
-    padding-left: 30px;
     line-height: 30px;
 }
 
-.plan-term {
-    padding: 30px;
-    font-size: 14px;
+ul.plan-term, ul.details {
+    margin-left: 20px;
 }
 
 .plan-term > * {
@@ -225,59 +223,37 @@ ul.billing {
     justify-content: center;
 }
 
-.plan-btn .blue-btn {
-    text-decoration: none;
-}
 
 .acquire {
-    padding: 40px 30px;
+    padding: 40px 0;
 }
 
 .divisore {
-    margin-left: 30px;
     margin-bottom: 20px;
     width: 50px;
     border-bottom: 1px solid #d0d0d3;
 }
 
-.plan h4 {
-    padding-left: 30px;
-}
-
-.plan ul {
-    padding-left: 30px;
-}
-
 .details > * {
     margin: 20px 0;
-    font-size: 14px;
 }
 
 .fa-solid.fa-check {
     color: #0061ff;
 }
 
+/*plan enterprise team*/
 .plan-card-left p {
     margin-top: 50px;
-    padding-left: 30px;
-    font-size: 14px;
 }
 
 .plan-card-right {
     padding-top: 30px;
 }
 
-.plan-card-right .blue-btn {
-    text-decoration: none;
-}
-
 
 
 /** Sezione Partner */
-
-section.operation {
-    margin-bottom: 200px;
-}
 
 .partner.flex {
     margin: 100px 0;
@@ -312,16 +288,18 @@ section.operation {
 
 /** Sezione Operazioni */
 
+section.operation {
+    margin-bottom: 200px;
+}
+
 .card-container.flex {
     flex-wrap: wrap;
 }
 
 .card {
     height: 550px;
-    
-
-    padding: 1 rem;
-    flex-basis: calc(100% / 3);
+    margin: 30px;
+    flex-basis: calc(100% / 3 - 60px);
 }
 
 .card-top {
@@ -330,8 +308,9 @@ section.operation {
 
 /*riempimento sezione operazioni*/
 .card-top {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .tools-img {
@@ -351,10 +330,6 @@ section.operation {
 }
 .security-img {
     background-image: url(img/business-feature-security.png);
-}
-
-.card-bottom {
-    padding-right: 50px; /*! ci vuole il gap! ricordati di cambiarlo lunedì*/
 }
 
 .card-bottom h2 {
@@ -541,5 +516,4 @@ footer {
 
 p.language {
     margin-top: 50px;
-    color: gray;
 }

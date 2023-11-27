@@ -60,10 +60,15 @@
             <!--Sezione Plan-->
             <section id="piani-e-prezzi">
                 <h2>Trova il piano business che fa per te</h2>
-                <ul class="billing flex">
-                    <li><div id="check"></div> Fatturazione mensile</li>
-                    <li><div id="uncheck"></div> Fatturazione annuale</li>
-                </ul>
+                <div class="fatturazione flex">
+                    <div class="billing flex">
+                        <span id="check"></span> Fatturazione mensile
+                    </div>
+                    <div class="billing flex">
+                        <span id="uncheck"></span> Fatturazione annuale
+                    </div>
+                </div>
+
                 <!--Piani-->
                 <div class="plan-container flex">
                     <div class="plan professional">
@@ -71,39 +76,41 @@
                             <i class="fa-solid fa-user"></i>
                             Singolo
                         </div>
-                        <h3>Professional</h3>
-                        <p class="price"><b>€ 12.00</b><br><span class="text-gray">/mese</span></p>
-                        <ul class="plan-term fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-user"></i></span>
-                                1 utente
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
-                                5 TB di spazio di archiviazione sicuro
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
-                                Funzioni di produttività premium e condivisione dei file semplice e sicura
-                            </li>
-                        </ul>
+                        <div class="plan-padding">
+                            <h3>Professional</h3>
+                            <p class="price"><b>€ 12.00</b><br><span class="text-gray">/mese</span></p>
+                            <ul class="plan-term fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-user"></i></span>
+                                    1 utente
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
+                                    5 TB di spazio di archiviazione sicuro
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
+                                    Funzioni di produttività premium e condivisione dei file semplice e sicura
+                                </li>
+                            </ul>
 
-                        <div class="plan-btn flex">
-                            <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
+                            <div class="plan-btn flex">
+                                <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
+                            </div>
+                            <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
+                            <div class="divisore"></div>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="details fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Invia fino a 100 GB con Dropbox Tranfert
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Cartelle offline su tutti i dispositivi mobili
+                                </li>
+                            </ul>
                         </div>
-                        <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
-                        <div class="divisore"></div>
-                        <h4>Punti salienti del piano</h4>
-                        <ul class="details fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Invia fino a 100 GB con Dropbox Tranfert
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Cartelle offline su tutti i dispositivi mobili
-                            </li>
-                        </ul>
                     </div>
 
                     <div class="plan advanced">
@@ -111,51 +118,53 @@
                             <i class="fa-solid fa-users"></i>
                             Team
                         </div>
-                        <h3>Advanced</h3>
-                        <p class="price"><b>€ 18.00</b><br><span class="text-gray">/utente/mese</span></p>
-                        <ul class="plan-term fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-users"></i></span>
-                                3 o più utenti
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
-                                Tutto lo spazio di cui ha bisogno il tuo team
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
-                                Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
-                            </li>
-                        </ul>
-                        <div class="plan-btn flex">
-                            <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
-                        </div>
-                        <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
-                        <div class="divisore"></div>
+                        <div class="plan-padding">
+                            <h3>Advanced</h3>
+                            <p class="price"><b>€ 18.00</b><br><span class="text-gray">/utente/mese</span></p>
+                            <ul class="plan-term fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-users"></i></span>
+                                    3 o più utenti
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
+                                    Tutto lo spazio di cui ha bisogno il tuo team
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
+                                    Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                                </li>
+                            </ul>
+                            <div class="plan-btn flex">
+                                <a class="blue-btn" href="">Prova gratis per 30 giorni</a>
+                            </div>
+                            <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
+                            <div class="divisore"></div>
 
-                        <h4>Punti salienti del piano</h4>
-                        <ul class="details fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Nessun limite di spazio per i file
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Cartelle offline su tutti i dispositivi mobili
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Risparmio del 50% rispetto alle iscrioni singole
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Possibilità di inserire nuovi membri del team
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Gestione dei permessi in base ai ruoli
-                            </li>
-                        </ul>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="details fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Nessun limite di spazio per i file
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Cartelle offline su tutti i dispositivi mobili
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Risparmio del 50% rispetto alle iscrioni singole
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Possibilità di inserire nuovi membri del team
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Gestione dei permessi in base ai ruoli
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="plan enterprise">
@@ -163,43 +172,45 @@
                             <i class="fa-solid fa-building"></i>
                             Azienda
                         </div>
-                        <h3>Enterprise</h3>
-                        <p class="price"><b>Contattaci</b><br><span class="text-gray">-</span></p>
-                        <ul class="plan-term fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-user"></i></i></span>
-                                10 o più utenti
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
-                                Soluzioni personalizzabili per la tua azienda
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
-                                Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
-                            </li>
-                        </ul>
-                        <div class="plan-btn flex">
-                            <a class="blue-btn" href="">Contattaci</a>
-                        </div>
-                        <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
-                        <div class="divisore"></div>
+                        <div class="plan-padding">
+                            <h3>Enterprise</h3>
+                            <p class="price"><b>Contattaci</b><br><span class="text-gray">-</span></p>
+                            <ul class="plan-term fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-user"></i></i></span>
+                                    10 o più utenti
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-folder"></i></span>
+                                    Soluzioni personalizzabili per la tua azienda
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-share-nodes"></i></span>
+                                    Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                                </li>
+                            </ul>
+                            <div class="plan-btn flex">
+                                <a class="blue-btn" href="">Contattaci</a>
+                            </div>
+                            <p class="acquire">oppure <a class="classic-link" href="#">acquista ora</a></p>
+                            <div class="divisore"></div>
 
-                        <h4>Punti salienti del piano</h4>
-                        <ul class="details fa-ul">
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Cartelle offline su tutti i dispositivi mobili
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Assistenza 24/h
-                            </li>
-                            <li>
-                                <span class="fa-li"><i class="fa-solid fa-check"></i></span>
-                                Possibilità di personalizzazione totale
-                            </li>
-                        </ul>
+                            <h4>Punti salienti del piano</h4>
+                            <ul class="details fa-ul">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Cartelle offline su tutti i dispositivi mobili
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Assistenza 24/h
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-check"></i></span>
+                                    Possibilità di personalizzazione totale
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="plan enterprise-team">
@@ -209,7 +220,7 @@
                         </div>
                         <div class="plan-card flex">
                             <div class="plan-card-left">
-                                <div>
+                                <div class="plan-padding">
                                     <h3>Enterprise</h3>
                                     <h4>Contatta l'ufficio vendite per i prezzi</h4>
                                     <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
@@ -237,46 +248,58 @@
             <section class="operation" id="funzioni">
                 <h2>Esegui più operazioni con Dropbox Business</h2>
                 <div class="card-container flex">
-                    <div class="card">
-                        <div class="card-top tools-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top tools-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top files-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top files-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top coordinate-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top coordinate-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top integration-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top integration-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top multi-device-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top multi-device-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top security-img"></div>
-                        <div class="card-bottom">
-                            <h2>Passa di meno da uno strumento all'altro</h2>
-                            <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    <div class="card flex">
+                        <div>
+                            <div class="card-top security-img"></div>
+                            <div class="card-bottom">
+                                <h2>Passa di meno da uno strumento all'altro</h2>
+                                <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -426,7 +449,7 @@
         </div>
         <div class="bottom-footer container">
             <div class="divisore-footer"></div>
-            <p class="language">
+            <p class="language text-gray">
                 <i class="fa-solid fa-earth-americas"></i>
                 Italiano
                 <i class="fa-solid fa-caret-up"></i>
