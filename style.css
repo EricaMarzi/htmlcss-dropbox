@@ -70,6 +70,7 @@ button.white-btn {
     width: 100%;
     justify-content: space-between;
     padding-left: 20px;
+    box-shadow: 0 2px 5px #888888;
 }
 
 .header {
