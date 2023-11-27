@@ -467,6 +467,7 @@ section.sponsor {
 }
 
 
+
 /** Sezione Domande Frequenti*/
 
 section#frequent-questions {
@@ -493,6 +494,15 @@ p.question {
     position: absolute;
     right: 0;
    
+}
+
+p.hidden-text {
+    padding: 30px 0;  
+    display: none; 
+}
+
+.question:hover + .hidden-text {
+    display: block;
 }
 
 
