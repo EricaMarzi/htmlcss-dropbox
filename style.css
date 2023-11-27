@@ -47,13 +47,13 @@ a.blue-btn {
     color: white;
 }
 
-button.white-btn {
+a.white-btn {
+    text-decoration: none;
     background-color: white;
     color: black;
     padding: 10px 20px;
-    margin: black;
+    border: 1px solid black;
     font-size: 16px;
-    cursor: pointer;
 }
 
 .text-gray {
@@ -180,7 +180,7 @@ ul.billing {
     margin: 25px;
     flex-basis: calc(100% / 3 - 50px);
 
-    height: 950px; 
+    height: 1000px; 
     border: 1px solid #d0d0d3;
 }
 
@@ -430,7 +430,49 @@ section.sponsor {
     background-color: #ffd830;
 }
 
-
-.bg-lightgray {
+.sponsor-big-box.gray {
+    padding: 50px;
     background-color: #f5f5f5;
+}
+
+.sponsor-big-box.gray img {
+    width: 300px;
+
+    margin-bottom: 50px;
+}
+
+.sponsor-big-box.gray > .divisore {
+    margin: 20px 0;
+    width: 100px;
+}
+
+.sponsor-big-box.gray > p {
+    margin: 30px 0 50px 0;
+}
+
+
+/** Sezione Free Trial */ 
+
+.free-trial {
+    background-color: #b4d0e7;
+    padding: 70px;
+}
+
+.free-trial > .container-main.flex {
+    gap: 90px;
+    align-items: baseline;
+}
+
+.left-trial {
+    width: 60%;
+}
+
+.left-trial h2 {
+    color: #61082b;
+}
+
+.right-trial a{
+    border-color: transparent;
+    padding-left: 50px;
+    padding-right: 50px;
 }
