@@ -371,3 +371,62 @@ section.operation {
 h2.title-small {
     font-size: 30px;
 }
+
+/** Sezione Sponsor */
+
+section.sponsor {
+    margin-top: 150px;
+}
+
+.sponsor-big-box {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+
+    flex-wrap: wrap;
+}
+
+.sponsor-small-box {
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 15px solid transparent;
+}
+
+.sponsor-small-box img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.bg-sage {
+    background-color: #a2d39b;
+}
+.bg-burgundy {
+    background-color: #61082b;
+}
+.bg-azure {
+    background-color: #0093ce;
+}
+.bg-lightred {
+    background-color: #ff1c1c;
+}
+.bg-red {
+    background-color: #d5001f;
+}
+.bg-cerulean {
+    background-color: #b4d0e7;
+}
+.bg-blue {
+    background-color: #0d2481;
+}
+.bg-yellow {
+    background-color: #ffd830;
+}
+
+
+.bg-lightgray {
+    background-color: #f5f5f5;
+}
