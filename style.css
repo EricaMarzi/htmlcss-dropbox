@@ -396,6 +396,10 @@ section.sponsor {
     border: 15px solid transparent;
 }
 
+.sponsor-small-box:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
 .sponsor-small-box img {
     width: 50%;
     filter: invert(1);
