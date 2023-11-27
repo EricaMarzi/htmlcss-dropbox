@@ -103,13 +103,17 @@ header li.border-bottom:hover {
 
 
 /*hidden list*/
+.menù {
+    position: relative;
+}
 
 ul.hidden-menù {
-    margin-top: 150px;
     padding: 30px;
     background-color: white;
     border: 1px solid black;
     display: none;
+    position: absolute;
+
 }
 
 .show-menù:hover + .hidden-menù {
